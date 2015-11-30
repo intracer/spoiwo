@@ -1,5 +1,6 @@
 SPOIWO (Scala POI Wrapping Objects)
 ==============
+[![Build Status](https://travis-ci.org/intracer/spoiwo.svg?branch=master)](https://travis-ci.org/intracer/spoiwo)
 Spoiwo is an open-source library for functional-style spreadsheet generation in Scala. It was started as a wrapper over Apache POI and while the XLSX generation is still at its core, the library has been rectified to support number of other spreadsheet representations (including CSV and HTML).
 
 The library tries to address the issues Scala developers face when using spreadsheet libraries for Java and which are representing a highly non-functional way in which the spreadsheets need to be generated (mutable state, enforced indexes, execution order dependency). To address this issues SPOIWO introduces its own spreadsheet model with the number of wrapping classes and caches enabling an efficient report generation. 
